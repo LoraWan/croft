@@ -1,6 +1,15 @@
 {
   "name": "Lora - Croft Server",
   "description": "An example app.json for heroku-docker",
+  "keywords": [
+    "lora",
+    "go"
+  ],
   "image": "heroku/go",
-  "addons": []
+  "mount_dir": "src/github.com/LoraWan/croft",
+  "website": "http://github.com/LoraWan/croft",
+  "repository": "http://github.com/LoraWan/croft",
+  "scripts": {},
+  "addons": [
+  ]
 }
